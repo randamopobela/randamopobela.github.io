@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/randamopobela/randamopobela.github.io/issues"
   },
-  "homepage": "https://github.com/randamopobela/randamopobela.github.io#readme"
+  "homepage": "https://github.com/randamopobela/randamopobela.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
 }
